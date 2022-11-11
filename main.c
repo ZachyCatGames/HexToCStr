@@ -3,8 +3,6 @@
 #include <string.h>
 #include <stdint.h>
 
-#define MIN(val1, val2) val1 > val2 ? val2 : val1
-
 int main(int argc, const char** argv) {
 	/* Check arg count. */
 	if (argc < 2) {
